@@ -33,7 +33,7 @@ class TimeChart extends Component {
                         hAxis: {
                         titleTextStyle: {color: '#607d8b'}, 
                         gridlines: { count:0}, 
-                        textStyle: { color: '#b0bec5', fontName: 'Roboto', fontSize: '12', bold: true}
+                        textStyle: { color: '#48444b', fontName: 'Roboto', fontSize: '12', bold: true}
                         },
                         vAxis: {
                         minValue: 0, 
@@ -53,7 +53,7 @@ class TimeChart extends Component {
                             width:400,
                             pieSliceBorderColor: '#263238',
                             pieSliceTextStyle:  {color:'#607d8b' },
-                            pieHole: 0.4,
+                            pieHole: 0.9,
                             bar: {groupWidth: "40" },
                             colorAxis: {colors: ["#3f51b5","#2196f3","#03a9f4","#00bcd4"] },
                             backgroundColor: 'transparent',
@@ -103,7 +103,7 @@ class TimeChart extends Component {
                             width:400,
                             pieSliceBorderColor: '#263238',
                             pieSliceTextStyle:  {color:'#607d8b' },
-                            pieHole: 0.4,
+                            pieHole: 0.9,
                             bar: {groupWidth: "40" },
                             colorAxis: {colors: ["#3f51b5","#2196f3","#03a9f4","#00bcd4"] },
                             backgroundColor: 'transparent',
@@ -114,7 +114,7 @@ class TimeChart extends Component {
                 />
             </div>
             </div>
-                <FontAwesomeIcon icon={faArrowDown}/>
+                {/* <FontAwesomeIcon icon={faArrowDown}/> */}
             </div>
         )
     }

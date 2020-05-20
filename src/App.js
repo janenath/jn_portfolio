@@ -4,6 +4,8 @@ import './App.css';
 import Landing from './components/Landing'
 import Page2 from './components/Page2'
 import TimeChart from './components/TimeChart'
+// import Page4 from './components/Page4'
+// import SkillChart from './components/SkillChart'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <Landing />
       <Page2 />
       <TimeChart />
+      {/* <Page4 />
+      <SkillChart /> */}
     </div>
   );
 }

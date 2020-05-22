@@ -5,7 +5,7 @@ class Page4 extends Component {
     render () {
         return(
             <div className="page">
-                <h2>What skills do I bring to the workplace?</h2>
+                <p>asdf</p>
                 <FontAwesomeIcon icon={faArrowDown}/>
             </div>
         )

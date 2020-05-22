@@ -5,7 +5,7 @@ class Page2 extends Component {
     render () {
         return(
             <div className="page">
-                <h2>What do software engineering and nursing have in common?</h2>
+                <h2>What do <span className="bold">software engineering</span> and <span className="bold">nursing</span> have in common?</h2>
                 <FontAwesomeIcon icon={faArrowDown}/>
             </div>
         )

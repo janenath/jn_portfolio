@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@0,500;1,700&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   text-align: center;
   background-color: #faf8f4;
@@ -14,20 +18,29 @@ body {
   justify-content: center;
   align-items: center;
 }
-img {
+.me {
   width: 50%;
   max-width: 500px;
 }
+.skillsChart {
+  width: 90%;
+  max-width: 1500px;
+}
+.skillsList {
+  display: none;
+  text-align: left;
+  line-height: 2;
+}
 
 h1 {
-  font-size: 3.5em;
+  font-size: 3em;
   letter-spacing: .15em;
   font-weight: 500;
   margin: 2.5em;
 
 }
 h2 {
-  font-size: 2.5em;
+  font-size: 2em;
   letter-spacing: .15em;
   font-weight: 500;
   margin: 2.5em;
@@ -54,7 +67,10 @@ h2 {
   h2 {
     font-size: 1em;
   }
-  .charts {
-    flex-direction: column;
+  .skillsChart {
+    display: none;
+  }
+  .skillsList {
+    display: block;
   }
 }

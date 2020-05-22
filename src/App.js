@@ -39,9 +39,9 @@ const Header = props => {
       <div className="App">
         <Router>
           <HeaderWithRouter />
-            <Route path="janenath.com/resume" exact component={Resume}/>
-            <Route path="janenath.com/contact" exact component={Contact}/>
-            <Route path="janenath.com/" exact component={Story}/>
+            <Route path="/resume" exact component={Resume}/>
+            <Route path="/contact" exact component={Contact}/>
+            <Route path="/" exact component={Story}/>
         </Router>
       </div>
     )

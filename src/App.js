@@ -22,10 +22,10 @@ const Header = props => {
               <Nav.Link href="/">my story</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/resume">my resume</Nav.Link>
+              <Nav.Link href="janenath.com/resume">my resume</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="/contact">contact me</Nav.Link>
+              <Nav.Link href="janenath.com/contact">contact me</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>  

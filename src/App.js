@@ -1,23 +1,42 @@
-import React from 'react';
+import React, { Component }from 'react';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import { Nav, Navbar } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import NavBar from './components/NavBar'
-import Landing from './components/Landing'
-import Page2 from './components/Page2'
-import SkillChart from './components/SkillChart'
-import Page4 from './components/Page4'
+import Story from './components/Story'
+import Resume from './components/Resume'
+import Contact from './components/Contact'
 
 
-function App() {
-  return (
-    <div className="App">
-      <NavBar />
-      <Landing />
-      <Page2 />
-      <SkillChart />
-      <Page4 />
-    </div>
-  );
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+          <Navbar fixed="top" expand="lg" className="navbar justify-content-end">
+             <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+            <Nav>
+            <Nav.Item>
+              <Nav.Link href="/" eventKey={1}>my story</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/resume" eventKey={2}>my resume</Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link href="/contact" eventKey={3}>contact me</Nav.Link>
+            </Nav.Item>
+          </Nav>
+          </Navbar.Collapse>
+          </Navbar>
+        <Switch>
+          <Route exact path="/resume" component={Resume}/>
+          <Route exact path="/contact" component={Contact}/>
+          <Route exact path="/" component={Story}/>
+        </Switch>
+      </Router>
+    );
+  }
 }
 
 export default App;

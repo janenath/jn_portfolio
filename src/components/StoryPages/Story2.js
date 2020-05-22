@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
-class Page2 extends Component {
+class Story2 extends Component {
     render () {
         return(
             <div className="page">
@@ -14,7 +14,7 @@ class Page2 extends Component {
                 <p>Like many medical providers, I felt <span className="bold">burnt out.</span> I was working within a system that prioritized increasing quantities of billable patient encounters rather than building meaningful relationships and solutions.</p>
                 <br/>
                 <br/>
-                <p><span className="bold">I decided to explore other career options.</span> I started doing some online coding tutorials, just for fun, and soon realized I wanted to switch to engineering full-time.</p>
+                <p><span className="bold">I decided to explore other career options.</span> I started doing some online coding tutorials, just for fun, and soon realized I wanted to pursue training to switch to engineering full-time.</p>
                 <br/>
                 <br/>
                 <br/>
@@ -26,4 +26,4 @@ class Page2 extends Component {
     }
 } 
 
-export default Page2
+export default Story2

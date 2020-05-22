@@ -4,7 +4,7 @@ import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
 
 
 
-class SkillChart extends Component {
+class StoryChart extends Component {
 
     
     render () {
@@ -27,4 +27,4 @@ class SkillChart extends Component {
     }
 } 
 
-export default SkillChart
+export default StoryChart

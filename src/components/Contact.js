@@ -8,6 +8,7 @@ class Contact extends Component {
         return(
             <div className="page">
                 <div className="social">
+                    <h2><span className="bold">Let's Get in Touch!</span></h2>
                     <div className="socialLink">
                     <FontAwesomeIcon icon={faEnvelope}/>
                         <a href="mailto:jane.e.nath@gmail.com"><p>Email Me</p></a>

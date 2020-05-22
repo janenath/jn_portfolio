@@ -60,7 +60,7 @@ h2 {
 
 p {
   font-size: 1.5em;
-  width: 60%;
+  margin: 0;
 }
 
 .textLink, .textLink:hover {
@@ -72,6 +72,22 @@ p {
   font-weight: 700; 
 }
 
+.social {
+  width: 100%;
+}
+.social a {
+  display: flex;
+  flex-direction: column;
+  color: #48444b;
+  padding: 10px;
+  margin-left: 10px;
+}
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
 
 @media (max-width: 800px) {
   h1 {

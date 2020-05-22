@@ -19,7 +19,7 @@ const Header = props => {
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav activeKey={location.pathname}>
             <Nav.Item>
-              <Nav.Link href="/">my story</Nav.Link>
+              <Nav.Link href="janenath.com/">my story</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="janenath.com/resume">my resume</Nav.Link>
@@ -39,9 +39,9 @@ const Header = props => {
       <div className="App">
         <Router>
           <HeaderWithRouter />
-            <Route path="/resume" exact component={Resume}/>
-            <Route path="/contact" exact component={Contact}/>
-            <Route path="/" exact component={Story}/>
+            <Route path="janenath.com/resume" exact component={Resume}/>
+            <Route path="janenath.com/contact" exact component={Contact}/>
+            <Route path="janenath.com/" exact component={Story}/>
         </Router>
       </div>
     )

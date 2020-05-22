@@ -63,6 +63,10 @@ h2 {
 
 }
 
+h4 {
+  text-decoration: underline;
+}
+
 p {
   font-size: 1.5em;
   margin: 0;
@@ -75,6 +79,34 @@ p {
 
 .bold {
   font-weight: 700; 
+}
+
+.projects {
+  display: flex;
+}
+
+.projectsRow {
+  display: flex;
+  flex-direction: column;
+}
+
+.project {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px 10px;
+  font-size: 0.75em;
+}
+.project a {
+  color: #919a75;
+  height: 100%;
+}
+.appPreview {
+  margin-top: 20px;
+  width: 300px;
 }
 
 .social {

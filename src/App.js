@@ -19,13 +19,13 @@ const Header = props => {
           <Navbar.Collapse id="basic-navbar-nav">
           <Nav activeKey={location.pathname}>
             <Nav.Item>
-              <Nav.Link href="janenath.com/">my story</Nav.Link>
+              <Nav.Link href="/">my story</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="janenath.com/resume">my resume</Nav.Link>
+              <Nav.Link href="/resume">my resume</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="janenath.com/contact">contact me</Nav.Link>
+              <Nav.Link href="/contact">contact me</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>  

@@ -4,12 +4,14 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   text-align: center;
   background-color: #faf8f4;
   font-family: 'Open Sans', sans-serif;
   color: #48444b;
 }
+
 .navbar {
   font-family: 'Open Sans', sans-serif;
   color: #48444b;
@@ -23,14 +25,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+
 .me {
   width: 50%;
   max-width: 500px;
 }
+
 .skillsChart {
   width: 90%;
   max-width: 1500px;
 }
+
 .skillsList {
   display: none;
   text-align: left;
@@ -44,6 +49,7 @@ h1 {
   margin: 2.5em;
 
 }
+
 h2 {
   font-size: 2em;
   letter-spacing: .15em;
@@ -51,28 +57,23 @@ h2 {
   margin: 2.5em;
 
 }
+
 p {
   font-size: 1.5em;
   width: 60%;
+}
+
+.textLink, .textLink:hover {
+  font-weight: 700;
+  color: #919a75;
 }
 
 .bold {
   font-weight: 700; 
 }
 
-.charts {
-  display: flex;
-  justify-content: center;
-  width: 100vw;
-}
-.chartContainer {
-  margin: 100px;
-}
 
 @media (max-width: 800px) {
-  .page {
-    width: 80%;
-  }
   h1 {
     font-size: 1.5em;
   }

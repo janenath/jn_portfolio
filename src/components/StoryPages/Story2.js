@@ -8,13 +8,10 @@ class Story2 extends Component {
                 <p className="story"><span className="bold">As a nurse,</span> I loved delivering babies, supporting patients through challenging times, and using scientific expertise to impact people's lives for the better.</p>
                 <br/>
                 <br/>
-                <p className="story">But after five years in the field, I realized <span className="bold">I wasn't happy.</span></p>
+                <p className="story">But after five years in the field, I felt <span className="bold">burnt out.</span> I was working within a system that prioritized increasing quantities of billable patient encounters rather than building meaningful relationships and solutions.</p>
                 <br/>
                 <br/>
-                <p className="story">Like many medical providers, I felt <span className="bold">burnt out.</span> I was working within a system that prioritized increasing quantities of billable patient encounters rather than building meaningful relationships and solutions.</p>
-                <br/>
-                <br/>
-                <p className="story"><span className="bold">I decided to explore other career options.</span> I started doing some online coding tutorials just for fun, and soon realized I wanted to pursue training to switch to engineering full-time.</p>
+                <p className="story"><span className="bold">I decided to explore other career options.</span> I started doing some online coding tutorials just for fun, and soon realized that's what I wanted to do full-time.</p>
                 <br/>
                 <br/>
                 <br/>

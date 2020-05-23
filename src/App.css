@@ -145,5 +145,8 @@ p {
   .skillsList {
     display: block;
   }
+  .projectContainer {
+    display: none;
+  }
 
 }
